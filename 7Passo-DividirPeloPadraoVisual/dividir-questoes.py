@@ -111,8 +111,8 @@ def dividir_imagem_por_faixas(caminho_imagem, pasta_saida, cor_alvo=(167, 169, 1
         print(f"Salvo: {caminho_completo} ({secao.width}x{secao.height}px)")
 
 if __name__ == "__main__":
-    caminho_imagem = "colunas_concatenadas_verticalmente.png"  # Substitua pelo caminho da sua imagem
-    pasta_saida = "colunas"           # Substitua pelo nome da pasta de saída
+    caminho_imagem = "inteiras_concatenadas_verticalmente.png"  # Substitua pelo caminho da sua imagem
+    pasta_saida = "inteiras_divididas"           # Substitua pelo nome da pasta de saída
     
     # Cor especificada diretamente em RGB 0-255
     cor_do_padrao = (167, 169, 172)

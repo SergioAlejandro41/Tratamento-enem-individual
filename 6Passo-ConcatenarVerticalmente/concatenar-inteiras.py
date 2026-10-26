@@ -12,7 +12,7 @@ from PIL import Image
 import os
 import re
 
-pasta_imagens = "divididas-sem-bordas-do-meio"
+pasta_imagens = "inteiras"
 pasta_saida = "."
 os.makedirs(pasta_saida, exist_ok=True)
 
